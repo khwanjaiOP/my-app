@@ -56,7 +56,7 @@ export default function Login() {
                         type="text"
                         id="identifier"
                         value={identifier}
-                        label="ชื่อผู้ใช้"
+                        label="Username"
                         onChange={(e) => setIdentifier(e.target.value)}
                         required
                         />
